@@ -1,0 +1,15 @@
+### GET ALL TRANSACTIONS
+GET http://localhost:5000/api/transactions/
+
+
+
+
+### CREATE A TRANSACTION
+POST http://localhost:5000/api/transactions
+Content-Type: application/json
+
+{"item": "Food", "amount": -20000 }
+
+
+### DELETE A TRANSACTION
+DELETE  http://localhost:5000/api/transactions/5fe1baca6dc76111088b52f6
